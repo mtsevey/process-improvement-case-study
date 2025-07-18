@@ -1,0 +1,9 @@
+# Gap Analysis
+
+| Aspect                     | Current State                                                | Desired State                                                  | Gap/Recommendation                                              |
+|---------------------------|--------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------|
+| **Cycle Time Performance** | Order cycle times vary widely from 0–50 days; average cycle times are highest in Asia (~29 days) and lowest in Sub‑Saharan Africa (~20 days) | Consistently low cycle times (e.g., < 10 days) across all regions | Implement process monitoring and optimisation; set target cycle times and track adherence |
+| **Visibility & Monitoring** | No real‑time visibility into individual order cycle times; delays are discovered only after customers complain | Real‑time dashboards and alerts for orders approaching thresholds | Develop dashboards and alerts to notify operations when orders exceed threshold |
+| **Process Standardisation** | Order processing and shipping steps vary by region and rely on manual handoffs | Standardised workflows with clear handoffs and automation | Document processes and automate order routing and shipping label creation |
+| **Data Integration**       | Order and shipping data are stored in disparate systems; manual reconciliation required | Integrated systems that automatically share order and shipment data | Build APIs or ETL processes to synchronise order and shipping data |
+| **Continuous Improvement** | Process metrics are not routinely analysed; bottlenecks persist | Regular analysis of cycle‑time metrics and periodic process reviews | Establish KPIs, schedule regular reviews and implement continuous improvement initiatives |
